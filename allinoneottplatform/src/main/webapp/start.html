@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Start</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(45deg, #3a506b, #5bc0be);
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(15px);
+            border-radius: 25px;
+            width: 400px;
+            text-align: center;
+            padding: 40px;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+        }
+        .container h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+        .button-group {
+            margin-top: 20px;
+        }
+        .button-group button {
+            font-size: 18px;
+            padding: 12px;
+            width: 80%;
+            border: none;
+            border-radius: 30px;
+            background: linear-gradient(45deg, #1c2541, #3a506b);
+            color: white;
+            cursor: pointer;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+            margin: 10px;
+        }
+        .button-group button a {
+            text-decoration: none;
+            color: white;
+            display: block;
+            font-weight: bold;
+        }
+        .button-group button:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>User Panel</h2>
+        <div class="button-group">
+            <a href="./form.html"> <button>Sign Up</button></a>
+           <a href="./login.html"> <button>Log In</button></a>
+        </div>
+    </div>
+</body>
+</html>

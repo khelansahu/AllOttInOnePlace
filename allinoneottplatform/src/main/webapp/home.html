@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - OTT Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 800px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+        }
+        .card button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .card button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0T1W8_Lj41KpDRjnUi1fRcOPOpyY5AEXWjg&s" alt="Hotstar">
+            <a href="Hotstar"> <button>Hotstar</button> </a>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwPtgZvkoRRZwFBrabsbZDjVykqAFqfKIi1Q&s" alt="Netflix">
+            <a href="Netflix"> <button>Netflix</button> </a>
+        </div>
+        <div class="card">
+            <img src="https://images.moneycontrol.com/static-mcnews/2024/07/20240725074952_WhatsApp-Image-2024-07-25-at-12.17.26.jpeg" alt="Amazon Prime Video">
+            <a href="AmazonPrimeVideo"> <button>Amazon Prime Video</button> </a>
+        </div>
+        <div class="card">
+            <img src="https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2023/04/JioCinema.jpg?ssl=1&quality=80&w=f" alt="Jio Cinema">
+            <a href="JioCenema"> <button>Jio Cinema</button> </a>
+        </div>
+        <div class="card">
+            <img src="https://thevpn.guru/wp-content/uploads/2018/08/How-to-Install-MX-Player-on-FireStick.jpg" alt="MX Player">
+            <a href="MXPlayer"> <button>MX Player</button> </a>
+        </div>
+    </div>
+</body>
+</html>
